@@ -1,0 +1,12 @@
+/node_modules
+/.env.local
+/site/.wdm
+.wdm
+/.wdm-production
+/.wdm-test
+/dist
+yarn-debug.log*
+yarn-error.log*
+lib
+es
+types

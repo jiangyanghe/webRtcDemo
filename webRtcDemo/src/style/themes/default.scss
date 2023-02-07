@@ -1,0 +1,113 @@
+@charset "UTF-8";
+//-----------------------------------------------------
+// setting scss
+//-----------------------------------------------------
+
+@use "sass:math";
+
+$ratio: math.div(750, 320);
+$viewMaxWidth: 640px;
+$viewMinWidth: 320px;
+
+// 开关设置
+//-----------------------------------------------------
+$lte7:                  false !default; //是否兼容ie6-7
+$filter:                false !default; //是否为ie6-8开启css3滤镜兼容，常用于渐变背景
+
+// font相关
+//-----------------------------------------------------
+$baseFontSize:          14px !default;
+$baseFontSizeVal:       14 !default;
+$baseLineHeight:        1.5 !default;
+$baseFontFamily:        "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif !default;
+$fontCn:                "SimSun"; //宋体
+$fontYaHei:             "Microsoft Yahei"; //微软雅黑
+$fontHeiTi:             "SimHei"; //黑体
+
+// 网站全局宽度
+$width-wrap:          980px !default;
+
+// 元素上下间距
+//-----------------------------------------------------
+$baseGap:               20px !default;
+
+// 基本颜色
+// color function : http://sass-lang.com/docs/yardoc/Sass/Script/Functions.html
+// lighten($color, $amount)
+// darken($color, $amount)
+// opacify($color, $amount)
+// mix($color1, $color2[, $amount])
+//-----------------------------------------------------
+$black:                 #000 !default;
+$grayDarker:            #333 !default;
+$grayDark:              #666 !default;
+$gray:                  #999 !default;
+$grayLight:             #f5f5f5 !default;
+$white:                 #fff !default;
+
+$red:                   #c11e2e !default;
+$blue:                  #057aff !default;
+$blueDark:              #0064cd !default;
+$orange:                #f47837 !default;
+$green:                 #51b148 !default;
+$yellow:                #6b5f39 !default;
+$pink:                  #ff4252 !default;
+$purple:                #7a43b6 !default;
+
+$primary:               #057aff !default; //主色
+$primaryDark:           #03b3ff !default; //主色
+$primaryOrange:         #ff6e0d !default;
+$primaryOrangeDark:     #fba92e !default;
+
+// link
+//-----------------------------------------------------
+// 如果只有一个值则滑过的值为这个值的darken 5%，如果
+// 有两个值则第二个值为滑过的值
+$linkColor:             #057aff #057aff !default;
+
+// scaffolding
+//-----------------------------------------------------
+$bodyBgColor:           #f6f6f6 !default;
+$bodyBgWhite:           #fff !default;
+$textColor:              $grayDarker !default;
+
+// background
+//-----------------------------------------------------
+
+// placeholder
+//-----------------------------------------------------
+// 变量分别为：是否输出表单的占位符placeholder样式，文本色
+$placeholder:           true $gray !default;
+
+// 交互配色
+// 警告，错误，成功，提示
+//-----------------------------------------------------
+// 每个变量都有三个颜色值，分别为：文本色，背景色，边框色
+$warningColor:               #514721 #fff6bf #ffd324 !default;
+$errorColor:                 #8a1f11 #fbe3e4 #fbc2c4 !default;
+$successColor:               #264409 #e6efc2 #c6d880 !default;
+$infoColor:                  #205791 #d5edf8 #92cae4 !default;
+
+// radius
+//-----------------------------------------------------
+$baseRadius:            5px !default;
+$smallRadius:           3px !default;
+
+// z-index
+//-----------------------------------------------------
+$zindexDropdown:        1000 !default;
+$zindexFixedTopbar:     1010 !default;
+$zindexTooltip:         1020 !default;
+$zindexAlert:           1030 !default;
+$zindexModal:           1100 !default;
+
+// button
+$buttonPrimaryOrange:         #ff9500 !default;
+$buttonPrimaryOrangeDark:     #fc0 !default;
+$buttonPrimary:               #057aff !default;
+$buttonPrimaryDark:           #03b3ff !default;
+
+// radio
+$radioActiveBackground:       #f2f8ff !default;
+$radioActiveBorder:           #057aff !default;
+$radioActiveColor:            #057aff !default;

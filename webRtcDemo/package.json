@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "author":"蒋阳和 <jiangyanghe@iyunbao.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "wdmjs build",
+    "build:analyze": "ANALYZE=1 wdmjs build",
+    "dev": "wdmjs dev",
+    "lint": "wdmjs lint",
+    "start": "wdmjs server",
+    "test": "wdmjs test"
+  },
+  "dependencies": {
+    "react": "^17",
+    "react-dom": "^17",
+    "wdmjs": "^1.0.9",
+    "zarm": "^2.9.16"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "typescript": "^4"
+  }
+}

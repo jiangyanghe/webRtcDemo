@@ -1,0 +1,7 @@
+@import "./style/index.scss";
+
+.app-container {
+  min-width: $viewMinWidth;
+  max-width: $viewMaxWidth;
+  margin: 0 auto;
+}
