@@ -38,7 +38,9 @@ export default function aboutPage() {
   const getDeviceInfos = () => {
     navigator.mediaDevices.enumerateDevices().then((deviceInfos) => {  // 打印出每一个设备的信息
       deviceInfos.forEach((deviceInfo) => { 
-        console.log(`${deviceInfo.kind}: ${deviceInfo.label} id = ${deviceInfo.deviceId}`);
+        if (deviceInfo.kind === 'videoinput') {
+          console.warn(`deviceInfos====${deviceInfo.kind}: ${deviceInfo.label} id = ${deviceInfo.deviceId}, ${deviceInfo}`);
+        }
       });
     });
   };

@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "name": " rrweb monorepo", // added a space to bump it to the top
+      "path": ".."
+    },
+    {
+      "name": "rrdom (package)",
+      "path": "../packages/rrdom"
+    },
+    {
+      "name": "rrdom-nodejs (package)",
+      "path": "../packages/rrdom-nodejs"
+    },
+    {
+      "name": "rrweb (package)",
+      "path": "../packages/rrweb"
+    },
+    {
+      "name": "rrweb-player (package)",
+      "path": "../packages/rrweb-player"
+    },
+    {
+      "name": "rrweb-snapshot (package)",
+      "path": "../packages/rrweb-snapshot"
+    },
+    {
+      "name": "@rrweb/types",
+      "path": "../packages/types"
+    }
+  ],
+  "settings": {
+    "jest.disabledWorkspaceFolders": [
+      " rrweb monorepo",
+      "rrweb-player (package)",
+      "@rrweb/types"
+    ]
+  }
+}

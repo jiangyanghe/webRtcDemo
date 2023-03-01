@@ -1,0 +1,13 @@
+
+node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/lib
+/dist
+
+src/.umi
+

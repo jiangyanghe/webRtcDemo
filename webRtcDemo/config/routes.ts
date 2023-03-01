@@ -33,6 +33,11 @@ export default [
         component: './demo/video',
         title: 'video',
       },
+      { // 客户端录屏
+        path: '/peerconnection',
+        component: './demo/peerconnection',
+        title: 'peerconnection',
+      },
       { // 录制桌面
         path: '/getDisplayMedia',
         component: './demo/getDisplayMedia',

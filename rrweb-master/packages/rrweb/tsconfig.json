@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "downlevelIteration": true,
+    "importsNotUsedAsValues": "error",
+    "strictBindCallApply": true,
+    "composite": true
+  },
+  "references": [
+    {
+      "path": "../types"
+    },
+    {
+      "path": "../rrdom"
+    },
+    {
+      "path": "../rrweb-snapshot"
+    }
+  ],
+  "exclude": [
+    "test",
+    "scripts"
+  ],
+  "include": [
+    "src",
+    "node_modules/@types/css-font-loading-module/index.d.ts",
+    "node_modules/@types/jest-image-snapshot/index.d.ts"
+  ]
+}
