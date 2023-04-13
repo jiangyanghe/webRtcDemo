@@ -1,0 +1,324 @@
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+// @font-face {
+//   font-family: 'iybfont';
+//   /* Project id 926686 */
+//   src: url('./font_926686_szfioy08h2.woff2?t=1673258339841') format('woff2'),
+//     url('./font_926686_szfioy08h2.woff?t=1673258339841') format('woff'),
+//     url('./font_926686_szfioy08h2.ttf?t=1673258339841') format('truetype');
+// }
+
+@font-face {
+  font-family: 'iybfont';
+  /* Project id 926686 */
+  src: url('https://static.iyb.tm//web/font/font_926686_szfioy08h2.woff2?t=1673258339841') format('woff2'),
+    url('https://static.iyb.tm//web/font/font_926686_szfioy08h2.woff?t=1673258339841') format('woff'),
+    url('https://static.iyb.tm//web/font/font_926686_szfioy08h2.ttf?t=1673258339841') format('truetype');
+}
+
+.iybfont {
+  font-family: "iybfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hebao:before {
+  content: "\e66e";
+}
+
+.icon-suanbaofei:before {
+  content: "\e61e";
+}
+
+.icon-xuanzhong-shixin:before {
+  content: "\e66b";
+}
+
+.icon-chulizhong:before {
+  content: "\e66c";
+}
+
+.icon-shibai:before {
+  content: "\e66d";
+}
+
+.icon-xiaolaba:before {
+  content: "\e64d";
+}
+
+.icon-dingweifuben:before {
+  content: "\e66a";
+}
+
+.icon-shezhi:before {
+  content: "\e669";
+}
+
+.icon-gengduo:before {
+  content: "\e668";
+}
+
+.icon-guanbi_:before {
+  content: "\e667";
+}
+
+.icon-fasong:before {
+  content: "\e666";
+}
+
+.icon-wenhao-shixin:before {
+  content: "\e658";
+}
+
+.icon-remen:before {
+  content: "\e665";
+}
+
+.icon-dianhua:before {
+  content: "\e663";
+}
+
+.icon-jiaofeixinxi1:before {
+  content: "\e661";
+}
+
+.icon-baoxiangongsi:before {
+  content: "\e664";
+}
+
+.icon-shoujihao:before {
+  content: "\e64e";
+}
+
+.icon-toubaorenxinxi:before {
+  content: "\e662";
+}
+
+.icon-shoucang-shixin:before {
+  content: "\e660";
+}
+
+.icon-dianzan-shixin:before {
+  content: "\e656";
+}
+
+.icon-zuo:before {
+  content: "\e65f";
+}
+
+.icon-baofeixinxi:before {
+  content: "\e628";
+}
+
+.icon-baozhangjihua:before {
+  content: "\e629";
+}
+
+.icon-baozhang:before {
+  content: "\e62a";
+}
+
+.icon-beitoubaoren:before {
+  content: "\e62c";
+}
+
+.icon-bianji:before {
+  content: "\e62d";
+}
+
+.icon-dianzan:before {
+  content: "\e62e";
+}
+
+.icon-baodan:before {
+  content: "\e62f";
+}
+
+.icon-chexiao:before {
+  content: "\e630";
+}
+
+.icon-dingwei:before {
+  content: "\e632";
+}
+
+.icon-fenxiang:before {
+  content: "\e634";
+}
+
+.icon-gouwudai:before {
+  content: "\e635";
+}
+
+.icon-jia_:before {
+  content: "\e637";
+}
+
+.icon-guanbi:before {
+  content: "\e638";
+}
+
+.icon-jia-shixin:before {
+  content: "\e639";
+}
+
+.icon-jia:before {
+  content: "\e63a";
+}
+
+.icon-jian:before {
+  content: "\e63b";
+}
+
+.icon-jianqu:before {
+  content: "\e63c";
+}
+
+.icon-jinru:before {
+  content: "\e63d";
+}
+
+.icon-jindu:before {
+  content: "\e63f";
+}
+
+.icon-tishi-shixin:before {
+  content: "\e640";
+}
+
+.icon-jian-shixin:before {
+  content: "\e641";
+}
+
+.icon-tishi:before {
+  content: "\e642";
+}
+
+.icon-kefu1:before {
+  content: "\e643";
+}
+
+.icon-pinglun:before {
+  content: "\e644";
+}
+
+.icon-liucheng:before {
+  content: "\e645";
+}
+
+.icon-renshu:before {
+  content: "\e646";
+}
+
+.icon-saomiao:before {
+  content: "\e647";
+}
+
+.icon-shaixuan:before {
+  content: "\e648";
+}
+
+.icon-shang:before {
+  content: "\e649";
+}
+
+.icon-shanchu:before {
+  content: "\e64a";
+}
+
+.icon-shijian:before {
+  content: "\e64b";
+}
+
+.icon-shoucang:before {
+  content: "\e64c";
+}
+
+.icon-sousuo:before {
+  content: "\e64f";
+}
+
+.icon-suoding:before {
+  content: "\e650";
+}
+
+.icon-tongxunxinxi:before {
+  content: "\e651";
+}
+
+.icon-xihuan:before {
+  content: "\e652";
+}
+
+.icon-xia:before {
+  content: "\e653";
+}
+
+.icon-xianshi:before {
+  content: "\e654";
+}
+
+.icon-xiangji:before {
+  content: "\e655";
+}
+
+.icon-xuanzhong:before {
+  content: "\e657";
+}
+
+.icon-wenhao:before {
+  content: "\e659";
+}
+
+.icon-yincang:before {
+  content: "\e65a";
+}
+
+.icon-zancun:before {
+  content: "\e65b";
+}
+
+.icon-you:before {
+  content: "\e65c";
+}
+
+.icon-zhiye:before {
+  content: "\e65d";
+}
+
+.icon-ziliao:before {
+  content: "\e65e";
+}
+
+.icon-fanhui:before {
+  content: "\e627";
+}
+
+.icon-xiaoxi:before {
+  content: "\e626";
+}
+
+.icon-duibi-40:before {
+  content: "\e620";
+}
+
+.icon-jihuashu-40:before {
+  content: "\e621";
+}
+
+.icon-kefu-40:before {
+  content: "\e622";
+}
+
+.icon-jiangaoyulan-40:before {
+  content: "\e623";
+}
+
+.icon-xiugaixinxi-40:before {
+  content: "\e624";
+}
+
+.icon-qiehuan:before {
+  content: "\e683";
+}

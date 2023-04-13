@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import './var.scss';
+
+$themes: (
+  // 基本颜色
+  black:                    $black,
+  gray-darker:              $gray-darker,
+  gray-dark:                $gray-dark,
+  gray:                     $gray,
+  white:                    $white,
+
+  // 主题色
+  theme-primary:            $theme-primary,
+  theme-primary-orange:     $theme-primary-orange,
+  theme-primary-dark:       $theme-primary-dark,
+
+  // 背景色
+  background-body:          $background-body,
+  background-white:         $background-white,
+  color-text:               $color-text,
+  color-border:             $color-border,
+  color-text-placeholder:   $color-text-placeholder,
+
+  // 警告，错误，成功，提示
+  warning-color:            $warning-color,
+  warning-background-color: $warning-background-color,
+  error-color:              $error-color,
+  error-background-color:   $error-background-color,
+  success-color:            $success-color,
+
+  // 水平间距
+  padding-h-xs:             $padding-h-xs,
+  padding-h-sm:             $padding-h-sm,
+  padding-h-md:             $padding-h-md,
+  padding-h-lg:             $padding-h-lg,
+  padding-h-xl:             $padding-h-xl,
+
+  // 垂直间距
+  padding-v-xs:             $padding-v-xs,
+  padding-v-sm:             $padding-v-sm,
+  padding-v-md:             $padding-v-md,
+  padding-v-lg:             $padding-v-lg,
+  padding-v-xl:             $padding-v-xl,
+  padding-v-30:             $padding-v-30,
+
+  // 字体大小
+  font-size-xs:             $font-size-xs,
+  font-size-sm:             $font-size-sm,
+  font-size-md:             $font-size-md,
+  font-size-lg:             $font-size-lg,
+  font-size-xl:             $font-size-xl,
+  font-size-xls:            $font-size-xls,
+  font-size-lgs:            $font-size-lgs,
+
+  // radius
+  radius-xs:                      $radius-xs,
+  radius-sm:                      $radius-sm,
+  radius-md:                      $radius-md,
+  radius-lg:                      $radius-lg,
+  radius-xls:                     $radius-xls,
+
+  // line
+  hr-height:                     $hr-height,
+
+  // 箭头
+  array-width:                   $array-width,
+
+  // carousel
+  carousel-pagination-height:     $carousel-pagination-height,
+  carousel-pagination-right:      $carousel-pagination-right,
+  carousel-pagination-bottom:     $carousel-pagination-bottom,
+
+  // cell
+  cell-subTitle-color:            $gray,
+  cell-label-color:               $gray-dark,
+  cell-input-placeholder-color:   $gray,
+  cell-arrow-length:              $cell-arrow-length,
+  cell-arrow-border-width:        $cell-arrow-border-width,
+  cell-min-width:                 $cell-min-width,
+  cell-min-height:                $cell-min-height,
+
+  // tabs
+  tabs-height:                    $tabs-height,
+  tabs-line-width:                $tabs-line-width,
+  tabs-line-height:               $tabs-line-height,
+
+  // video
+  video-min-height:               $video-min-height,
+
+  // table
+  table-border-color:             $table-border-color,
+  table-header-bg-color:          $table-header-bg-color,
+
+  // bottomBar
+  bottomBar-height:               $bottomBar-height,
+  bottomBar-button-height:        $bottomBar-button-height,
+
+  // message
+  message-icon-size-md:           $font-size-md,
+
+  // helper
+  helper-arrow-width:             $helper-arrow-width,
+  helper-arrow-top:               $helper-arrow-top,
+  helper-arrow-left:              $helper-arrow-left,
+
+  // form
+  form-font-size:                 $form-font-size,
+  form-label-min-width:           $form-label-min-width,
+
+  // input
+  input-address-search-height:    $input-address-search-height,
+  input-number-width:             $input-number-width,
+  input-ocr-list-height:          $input-ocr-list-height,
+
+  // stepper
+  stepper-input-width-md:         $stepper-input-width-md,
+
+  // radio
+  radio-size:                     $radio-size,
+  radio-min-width:                $radio-min-width,
+  radio-active-border-color:      $radio-active-border-color,
+  radio-active-background:        $radio-active-background,
+  radio-active-color:             $radio-active-color,
+  radio-icon-width:               $radio-icon-width,
+  radio-icon-height:              $radio-icon-height,
+  radio-icon-border-width:        $radio-icon-border-width,
+  radio-icon-line-height:         $radio-icon-line-height,
+  radio-icon-error-color:         $radio-icon-error-color,
+
+  // select
+  select-arrow-top:               $select-arrow-top,
+  select-arrow-right:             $select-arrow-right,
+
+  // button
+  button-min-width:               $button-min-width,
+  button-default-color:           $button-default-color,
+  button-default-border:          $button-default-border,
+  button-height-xs:               $button-height-xs,
+  // 按钮渐变
+  button-primary-background:      $button-primary-background,
+  button-primary-background-dark: $button-primary-background-dark,
+  button-orange-background:       $button-orange-background,
+  button-orange-background-dark:  $button-orange-background-dark,
+  button-orange-color:            $button-orange-color,
+
+  // switch-panel
+  switch-panel-tag-height:        $switch-panel-tag-height,
+  switch-panel-tag-radius:        $switch-panel-tag-radius,
+
+  // smscode
+  smscode-button-width:           $smscode-button-width,
+  smscode-button-height:          $smscode-button-height,
+
+  // upload
+  upload-width:                   $upload-width,
+  upload-height:                  $upload-height,
+
+  // agreeTerms
+  agreeTerms-tabs-height:         $agreeTerms-tabs-height,
+  agreeTerms-radio-width:         $agreeTerms-radio-width,
+  agreeTerms-radio-height:        $agreeTerms-radio-height,
+  agreeTerms-radio-top:           $agreeTerms-radio-top,
+  agreeTerms-radio-left:          $agreeTerms-radio-left,
+  agreeTerms-padding-left:        $agreeTerms-padding-left,
+
+  // popup
+  popup-close-width:              $popup-close-width,
+  popup-close-height:             $popup-close-height,
+  popup-close-right:              $popup-close-right,
+  popup-close-padding:            $popup-close-padding,
+  popup-close-line-width:         $popup-close-line-width,
+);
+
+:root {
+  @each $name, $value in $themes {
+    --#{"" + $name}: #{$value};
+  }
+}
+
+.za-alert--radius,
+.za-modal--radius {
+  .za-popup {
+    border-radius: var(--radius-lg);
+  }
+}

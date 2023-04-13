@@ -1,0 +1,18 @@
+{
+    "widget": "page",
+    "childrens": [
+      {
+        "widget": "text",
+        "wprops": {
+          "label": "普通文字"
+        }
+      },
+      {
+        "widget": "text",
+        "wprops": {
+          "label": "国民医保升级版 · 600万高额保障 · 责任内恶性肿瘤医疗100%赔付",
+          "className": "text"
+        }
+      }
+    ]
+}

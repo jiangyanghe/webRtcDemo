@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+// 基本颜色
+$black:                     #000;
+$gray-darker:               #333;
+$gray-dark:                 #666;
+$gray:                      #999;
+$gray-light:                #f5f5f5;
+$white:                     #fff;
+
+$red:                       #ff5050;
+
+$theme-primary:             #057aff;  // 主色，用于强调标题、按钮、链接文字
+$theme-primary-dark:        #03b3ff;
+$theme-primary-orange:      #ff6e0d;
+$theme-primary-orange-dark: #fba92e;
+
+// 背景色，边框
+$background-body:           #f6f6f6;
+$background-white:          #fff;
+$color-text:                 $gray-darker;
+$color-border:              #eee;
+$color-text-placeholder:    #ccc;
+
+// 警告，错误，成功，提示
+$warning-color:             #ff6e0d;
+$warning-background-color:  #fff6f0;
+$error-color:               #ff5050;
+$error-background-color:    #fff3f2;
+$success-color:             #14cc76;
+
+// 字体大小
+$font-size-xs:               10px;
+$font-size-sm:               12px;
+$font-size-md:               14px;
+$font-size-lg:               16px;
+$font-size-xl:               18px;
+$font-size-xls:              20px;
+$font-size-lgs:              32px;
+
+// 水平间距
+$padding-h-xs:               8px;
+$padding-h-sm:               12px;
+$padding-h-md:               16px;
+$padding-h-lg:               20px;
+$padding-h-xl:               24px;
+
+// 垂直间距
+$padding-v-xs:               6px;
+$padding-v-sm:               8px;
+$padding-v-md:               12px;
+$padding-v-lg:               16px;
+$padding-v-xl:               18px;
+$padding-v-30:               30px;
+
+// radius 卡片圆角分为小圆角8px、中圆角16px、大圆角32px，圆角须遵循外圆角大于内圆角。
+$radius-xs:                  2px;
+$radius-sm:                  2px;
+$radius-md:                  4px;
+$radius-lg:                  8px;
+$radius-xl:                  8px;
+$radius-xls:                 12px;
+
+// line
+$hr-height:                  10px;
+
+// 箭头
+$array-width:                5px;
+
+// carousel
+$carousel-pagination-height: 22px;
+$carousel-pagination-right:  8px;
+$carousel-pagination-bottom: 5px;
+
+// cell
+$cell-arrow-length:          8px;
+$cell-arrow-border-width:    1px;
+$cell-min-height:            52px;
+$cell-min-width:             120px;
+
+// 视频
+$video-min-height:              450px;
+
+// table
+$table-border-color:          #eee;
+$table-header-bg-color:         $background-body;
+$table-header-color:            $gray-darker;
+$table-even-bg-color:           transparent;
+$table-odd-bg-color:            transparent;
+
+// Tabs
+$tabs-height:                   40px;
+$tabs-line-width:               20px;
+$tabs-line-height:              3px;
+
+// bottomBar
+$bottomBar-height:              54px;
+$bottomBar-button-height:       40px;
+
+// helper
+$helper-arrow-width:            5px;
+$helper-arrow-top:              -5px;
+$helper-arrow-left:             10px;
+
+// button
+$button-min-width:              120px;
+$button-default-color:          $gray-dark;
+$button-default-color-dark:     $theme-primary-dark;
+$button-default-border:        #ddd;
+$button-height-xs:               30px;
+$button-primary-background:      $theme-primary;
+$button-primary-background-dark: $theme-primary-dark;
+$button-orange-background:       $theme-primary-orange;
+$button-orange-background-dark:  $theme-primary-orange-dark;
+$button-orange-color:            $white;
+
+// form
+$form-font-size:                 15px;
+$form-label-min-width:           104;
+
+// input
+$input-address-search-height:    36px;
+$input-number-width:             50px;
+$input-ocr-list-height:          168px;
+
+// stepper
+$stepper-input-width-md:         100px;
+
+// radio
+$radio-size:                     13px;
+$radio-min-width:                68px;
+$radio-active-border-color:      $theme-primary;
+$radio-active-background:        #f2f8ff;
+$radio-active-color:             $theme-primary;
+$radio-icon-width:               16px;
+$radio-icon-height:              16px;
+$radio-icon-border-width:        2px;
+$radio-icon-line-height:         8px;
+$radio-icon-error-color:         #f43530;
+
+// select
+$select-arrow-top:               -7px;
+$select-arrow-right:             2px;
+
+// switch-panel
+$switch-panel-tag-height:        20px;
+$switch-panel-tag-radius:        48px;
+
+// smscode
+$smscode-button-width:           80px;
+$smscode-button-height:          24px;
+
+// upload
+$upload-width:                   55px;
+$upload-height:                  55px;
+
+// agreeTerms
+$agreeTerms-tabs-height:         45px;
+$agreeTerms-radio-width:         14px;
+$agreeTerms-radio-height:        14px;
+$agreeTerms-radio-top:           14px;
+$agreeTerms-radio-left:          12px;
+$agreeTerms-padding-left:        45px;
+
+// popup
+$popup-close-width:              18px;
+$popup-close-height:             18px;
+$popup-close-right:              14px;
+$popup-close-line-width:         14px;
+$popup-close-padding:            44px;

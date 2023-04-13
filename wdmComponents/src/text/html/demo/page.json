@@ -1,0 +1,14 @@
+{
+    "widget": "page",
+    "childrens": [
+      {
+        "widget": "html",
+        "wprops": {
+          "label": "<p><strong><span style='font-size:18px'>活动时间</span></strong></p><p>8月6日-8月31日</p><p><strong>活动规则</strong></p><p>1、活动期间内投保太平洋团意外险享额外5%奖励;投保中国人寿团体意外险、太保雇主责任险、阳光雇主责任险;</p><p>2、动期间内投保太平洋团意外险享额外5%奖励;投保中国人寿团体意外险、太保雇主责任险、阳光雇主责任险;</p><p><span style='color:#373c43'><span style='font-size:14px'><span style='background-color:#ffffff'>3、</span></span></span>动期间内投保太平洋团意外险享额外5%奖励;投保中国人寿团体意外险、太保雇主责任险、阳光雇主责任险;</p><p>4、</p><p>5、</p><p>6、活动奖励所<strong><span style='color:#f32784'>产生的税费由平台承担;</span></strong></p><p>7、本活动与苹果公司Apple Inc. 无关;</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
+          "style": {
+            "padding": "0 10px"
+          }
+        }
+      }
+    ]
+}

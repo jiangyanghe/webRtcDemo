@@ -9,7 +9,7 @@ function trace(text) {
 }
 
 function Peerconnection() {
-  load.js('https://webrtc.github.io/adapter/adapter-latest.js');
+  load.js('https://webrtc.github.io/adapter/adapter-latest.js'); // 浏览器兼容
   const localVideo = createRef();
   const remoteVideo = createRef();
   const startButton = createRef();
@@ -198,7 +198,6 @@ function Peerconnection() {
   return (
     <div>
       <h1>Realtime communication with WebRTC</h1>
-
       <video ref={localVideo} id="localVideo" autoPlay playsInline />
       <video ref={remoteVideo} id="remoteVideo" autoPlay playsInline />
 

@@ -1,0 +1,43 @@
+{
+    "widget": "page",
+    "childrens": [
+      {
+        "widget": "text",
+        "wprops": {
+          "label": "投保人信息"
+        }
+      },
+      {
+        "widget": "hr",
+        "wprops": {}
+      },
+      {
+        "widget": "text",
+        "wprops": {
+          "label": "内容1",
+          "style": {
+            "background": "#fff",
+            "height": "52px",
+            "lineHeight": "52px",
+            "textAlign": "center"
+          }
+        }
+      },
+      {
+        "widget": "hr",
+        "wprops": {}
+      },
+      {
+        "widget": "text",
+        "wprops": {
+          "label": "内容2",
+          "style": {
+            "background": "#fff",
+            "height": "52px",
+            "lineHeight": "52px",
+            "textAlign": "center"
+          }
+        }
+      }
+    ]
+}

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import './func.scss';
+
+$themes: (
+  // 水平间距
+  padding-h-xs:                   r(16),
+  padding-h-sm:                   r(24),
+  padding-h-md:                   r(32),
+  padding-h-lg:                   r(40),
+  padding-h-xl:                   r(48),
+
+  // 垂直间距
+  padding-v-xs:                   r(12),
+  padding-v-sm:                   r(16),
+  padding-v-md:                   r(24),
+  padding-v-lg:                   r(32),
+  padding-v-xl:                   r(36),
+
+  // 字体大小
+  font-size-xs:                   r(20),
+  font-size-sm:                   r(24),
+  font-size-md:                   r(28),
+  font-size-lg:                   r(32),
+  font-size-xl:                   r(36),
+  font-size-xls:                  r(40),
+
+  // radius
+  radius-xs:                      r(4),
+  radius-sm:                      r(4),
+  radius-md:                      r(8),
+  radius-lg:                      r(16),
+  radius-xls:                     r(24),
+
+  // line
+  hr-height:                      r(20),
+
+  // 箭头
+  array-width:                    r(10),
+
+  // carousel
+  carousel-pagination-height:     r(44),
+  carousel-pagination-right:      r(16),
+  carousel-pagination-bottom:     r(10),
+
+  // cell
+  cell-min-width:                 r(240),
+  cell-min-height:                r(104),
+  cell-arrow-length:              r(16),
+  cell-padding-v:                 r(30),
+  cell-title-font-size:           r(28),
+  cell-description-font-size:     r(28),
+
+  // tabs
+  tabs-height:                    r(80),
+  tabs-line-width:                r(40),
+  tabs-line-height:               r(6),
+
+  // video
+  video-min-height:               r(900),
+
+  // bottomBar
+  bottomBar-height:               r(108),
+  bottomBar-button-height:        r(80),
+
+  // helper
+  helper-arrow-width:             r(10),
+  helper-arrow-top:               r(-10),
+  helper-arrow-left:              r(20),
+
+  // form
+  form-font-size:                 r(30),
+  form-label-min-width:           r(208),
+
+  // input
+  input-line-height:              r(44),
+  input-address-search-height:    r(72),
+  input-clear-icon-width:         r(32),
+  input-number-width:             r(100),
+  input-ocr-list-height:          r(336),
+
+  // stepper
+  stepper-input-width-md:         r(200),
+
+  // radio
+  radio-size:                     r(26),
+  radio-min-width:                r(136),
+  radio-icon-width:               r(32),
+  radio-icon-height:              r(32),
+  radio-icon-border-width:        r(4),
+  radio-icon-line-height:         r(16),
+
+  // select
+  select-arrow-top:               r(-14),
+  select-arrow-right:             r(4),
+
+  // button
+  button-min-width:               r(240),
+  button-height-xs:               r(60),
+  button-height-md:               r(88),
+  button-font-size-xs:            r(24),
+  button-font-size-md:            r(32),
+
+  // switch-panel
+  switch-panel-tag-height:        r(40),
+  switch-panel-tag-radius:        r(96),
+
+  // smscode
+  smscode-button-width:           r(160),
+  smscode-button-height:          r(48),
+
+  // upload
+  upload-width:                   r(110),
+  upload-height:                  r(110),
+
+  // agreeTerms
+  agreeTerms-tabs-height:         r(90),
+  agreeTerms-radio-width:         r(28),
+  agreeTerms-radio-height:        r(28),
+  agreeTerms-radio-top:           r(28),
+  agreeTerms-radio-left:          r(24),
+  agreeTerms-padding-left:        r(90),
+
+  // popup
+  popup-close-width:              r(36),
+  popup-close-height:             r(36),
+  popup-close-right:              r(28),
+  popup-close-padding:            r(28),
+  popup-close-line-width:         r(28),
+  modal-title-font-size:          r(36),
+);
+
+:root {
+  @each $name, $value in $themes {
+    --#{"" + $name}: #{$value};
+  }
+}

@@ -1,0 +1,16 @@
+.crm-text-list {
+  padding-left: 0;
+
+  li {
+    display: flex;
+    margin-bottom: var(--padding-v-sm);
+  }
+
+  &-number {
+    padding-left: var(--padding-h-xs);
+  }
+
+  &-content {
+    flex: 1;
+  }
+}

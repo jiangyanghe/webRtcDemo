@@ -1,0 +1,35 @@
+{
+  "name": "@example/components",
+  "author": "蒋阳和 <jiangyanghe@iyunbao.com>",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build:types && npm run build:lib && npm run build:es && npm run build:umd",
+    "build:es": "rm -rf es && wdmjs compile --mode es",
+    "build:lib": "rm -rf lib && wdmjs compile --mode lib",
+    "build:types": "rm -rf types && wdmjs compile --mode types",
+    "build:umd": "rm -rf dist && wdmjs compile --mode umd --path src/style/entry.tsx,src/index.tsx --out-dir dist --library-name library && wdmjs compile --mode umd --path src/style/entry.tsx,src/index.tsx --out-dir dist --library-name library --uglify",
+    "deploy": "rm -rf assets && wdmjs build --docs",
+    "dev": "wdmjs dev --docs",
+    "lint": "wdmjs lint",
+    "setup": "wdmjs setup",
+    "verify-commit": "wdmjs verify-commit ."
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "prop-types": "^15.7.2",
+    "zarm": "^2.9.13"
+  },
+  "devDependencies": {
+    "@iyunbao/cr-engine": "^4.3.0-alpha.3",
+    "@types/react": "^18.0.33",
+    "@wdm/plugins": "^1.0.10",
+    "antd": "^4.20.7",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "typescript": "^4",
+    "wdmjs": "^1.1.19"
+  }
+}
